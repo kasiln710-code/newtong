@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "全球 AI 智能通信平台",
+    "subtitle": "为企业提供短信、WhatsApp、邮件、语音机器人等全球通信能力，帮助客户实现验证通知、营销获客、客户服务与智能运营。",
+    "cta1": "开始接入",
+    "cta2": "获取方案",
+    "cta3": "查看 API",
+    "cta4": "联系销售"
+  },
+  "coverage": {
+    "title": "覆盖全球多个国家与地区",
+    "description": "深度覆盖东南亚、中东、欧洲、非洲及一带一路重点市场，支持全球高到达率通信资源接入。"
+  },
+  "products": {
+    "title": "全渠道客户连接能力",
+    "sms": {
+      "title": "全球短信",
+      "description": "高稳定、高到达率国际短信服务，支持验证码、通知、营销等多场景。"
+    },
+    "whatsapp": {
+      "title": "WhatsApp Business",
+      "description": "帮助企业建立全球即时客户连接能力，实现营销与客户服务闭环。"
+    },
+    "voice": {
+      "title": "AI 语音机器人",
+      "description": "支持智能外呼、自动通知、客户回访与语音交互。"
+    },
+    "email": {
+      "title": "邮件服务",
+      "description": "全球高送达邮件能力，支持营销邮件与系统通知。"
+    }
+  },
+  "ai": {
+    "title": "AI 驱动的全球客户运营",
+    "description": "通过 AI 自动化能力,将通信从发送工具升级为客户增长系统。",
+    "features": {
+      "chatbot": "AI 客服机器人",
+      "sales": "AI 销售助手",
+      "reply": "AI 自动回复",
+      "tags": "智能客户标签",
+      "translate": "多语言自动翻译",
+      "marketing": "自动化营销流程"
+    }
+  },
+  "industries": {
+    "title": "适用于多种全球化业务场景",
+    "ecommerce": "跨境电商",
+    "finance": "国际金融",
+    "saas": "SaaS 软件",
+    "gaming": "游戏出海",
+    "logistics": "国际物流",
+    "social": "海外社交平台"
+  },
+  "nav": {
+    "home": "首页",
+    "products": "产品中心",
+    "services": "服务中心",
+    "technical": "技术优势",
+    "about": "关于我们"
+  }
+}

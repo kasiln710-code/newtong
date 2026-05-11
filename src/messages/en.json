@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Global AI Communication Platform",
+    "subtitle": "Empowering enterprises with SMS, WhatsApp, Email and AI Voice capabilities to build intelligent global customer engagement.",
+    "cta1": "Get Started",
+    "cta2": "Get Solution",
+    "cta3": "View API",
+    "cta4": "Contact Sales"
+  },
+  "coverage": {
+    "title": "Global Coverage Across Countries & Regions",
+    "description": "Deep coverage in Southeast Asia, Middle East, Europe, Africa and Belt and Road key markets, supporting high-deliverability global communication resources."
+  },
+  "products": {
+    "title": "Omnichannel Customer Engagement",
+    "sms": {
+      "title": "Global SMS",
+      "description": "Highly stable, high-deliverability international SMS service supporting verification, notifications, and marketing scenarios."
+    },
+    "whatsapp": {
+      "title": "WhatsApp Business",
+      "description": "Help enterprises establish global instant customer connection capabilities to create a marketing and customer service closed loop."
+    },
+    "voice": {
+      "title": "AI Voice Bot",
+      "description": "Support intelligent outbound calls, automatic notifications, customer follow-ups and voice interactions."
+    },
+    "email": {
+      "title": "Email Service",
+      "description": "Global high-deliverability email capabilities, supporting marketing emails and system notifications."
+    }
+  },
+  "ai": {
+    "title": "AI-Powered Global Customer Operations",
+    "description": "Through AI automation capabilities, upgrade communication from a \"sending tool\" to a \"customer growth system\".",
+    "features": {
+      "chatbot": "AI Customer Service Bot",
+      "sales": "AI Sales Assistant",
+      "reply": "AI Auto Reply",
+      "tags": "Intelligent Customer Tags",
+      "translate": "Multi-language Auto Translation",
+      "marketing": "Automated Marketing Workflows"
+    }
+  },
+  "industries": {
+    "title": "Suitable for Various Global Business Scenarios",
+    "ecommerce": "Cross-border E-commerce",
+    "finance": "International Finance",
+    "saas": "SaaS Software",
+    "gaming": "Gaming Global Expansion",
+    "logistics": "International Logistics",
+    "social": "Overseas Social Platforms"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "services": "Services",
+    "technical": "Technical",
+    "about": "About Us"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Plataforma Global de Comunicación AI Inteligente",
+    "subtitle": "Proporcionando a las empresas capacidades de comunicación global como SMS, WhatsApp, correo electrónico y robots de voz para lograr notificaciones de verificación, adquisición de clientes de marketing, servicio al cliente y operaciones inteligentes.",
+    "cta1": "Comenzar",
+    "cta2": "Obtener Solución",
+    "cta3": "Ver API",
+    "cta4": "Contactar Ventas"
+  },
+  "coverage": {
+    "title": "Cobertura Global en Múltiples Países y Regiones",
+    "description": "Cobertura profunda en el Sudeste Asiático, Medio Oriente, Europa, África y mercados clave de la Ruta de la Seda, con soporte para acceso a recursos de comunicación global de alta entregabilidad."
+  },
+  "products": {
+    "title": "Capacidad de Conexión Omnicanal con Clientes",
+    "sms": {
+      "title": "SMS Global",
+      "description": "Servicio de SMS internacional altamente estable y de alta entregabilidad, compatible con múltiples escenarios como códigos de verificación, notificaciones y marketing."
+    },
+    "whatsapp": {
+      "title": "WhatsApp Business",
+      "description": "Ayudar a las empresas a establecer capacidades de conexión instantánea global con clientes para lograr un ciclo cerrado de marketing y servicio al cliente."
+    },
+    "voice": {
+      "title": "Robot de Voz AI",
+      "description": "Soporte para llamadas salientes inteligentes, notificaciones automáticas, seguimientos de clientes e interacciones de voz."
+    },
+    "email": {
+      "title": "Servicio de Correo Electrónico",
+      "description": "Capacidad de correo electrónico global de alta entregabilidad, compatible con correos de marketing y notificaciones del sistema."
+    }
+  },
+  "ai": {
+    "title": "Operaciones Globales de Clientes Impulsadas por AI",
+    "description": "A través de capacidades de automatización AI, actualizar la comunicación de una \"herramienta de envío\" a un \"sistema de crecimiento de clientes\".",
+    "features": {
+      "chatbot": "Robot de Servicio al Cliente AI",
+      "sales": "Asistente de Ventas AI",
+      "reply": "Respuesta Automática AI",
+      "tags": "Etiquetas Inteligentes de Clientes",
+      "translate": "Traducción Automática Multilingüe",
+      "marketing": "Flujos de Trabajo de Marketing Automatizados"
+    }
+  },
+  "industries": {
+    "title": "Adecuado para Diversos Escenarios de Negocios Globales",
+    "ecommerce": "Comercio Electrónico Transfronterizo",
+    "finance": "Finanzas Internacionales",
+    "saas": "Software SaaS",
+    "gaming": "Expansión Global de Juegos",
+    "logistics": "Logística Internacional",
+    "social": "Plataformas Sociales en el Extranjero"
+  },
+  "nav": {
+    "home": "Inicio",
+    "products": "Centro de Productos",
+    "services": "Centro de Servicios",
+    "technical": "Ventajas Técnicas",
+    "about": "Acerca de Nosotros"
+  }
+}
