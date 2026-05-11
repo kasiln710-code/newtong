@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-- **Name**: rongxin_web
+- **Name**: newtong
 - **Type**: Next.js Web Application
 - **Framework**: Next.js 16.2.6 with React 19.2.4
 - **Language**: TypeScript (strict mode enabled)
@@ -20,7 +20,7 @@
 ## Directory Structure
 
 ```
-rongxin_web/
+newtong/
 ├── app/                  # Next.js App Router pages
 ├── public/               # Static assets
 ├── node_modules/         # Dependencies

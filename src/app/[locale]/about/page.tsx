@@ -21,7 +21,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
             <h2 className="text-3xl font-bold text-white mb-6 text-center">公司介绍</h2>
             <div className="space-y-4 text-gray-300 text-lg leading-relaxed">
               <p>
-                融信通信（RongXin）是一家专注于全球通信服务的科技公司，致力于为中国企业提供出海必备的通信基础设施。
+                融信通信（Newtong）是一家专注于全球通信服务的科技公司，致力于为中国企业提供出海必备的通信基础设施。
               </p>
               <p>
                 我们整合了全球 SMS、WhatsApp、Email、Voice 等多种通信渠道，结合 AI 技术，
@@ -101,7 +101,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-white">企业邮箱</h3>
-                  <p className="text-gray-400">contact@rongxin.com</p>
+                  <p className="text-gray-400">contact@newtong.com</p>
                 </div>
               </div>
             </div>
@@ -129,7 +129,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-white">Telegram</h3>
-                  <p className="text-gray-400">@rongxin_support</p>
+                  <p className="text-gray-400">@newtong_support</p>
                 </div>
               </div>
             </div>
@@ -143,7 +143,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-white">微信</h3>
-                  <p className="text-gray-400">rongxin_official</p>
+                  <p className="text-gray-400">newtong_official</p>
                 </div>
               </div>
             </div>

@@ -148,8 +148,8 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-white mb-1">企业邮箱</h3>
-                    <p className="text-gray-400">contact@rongxin.com</p>
-                    <p className="text-gray-400">sales@rongxin.com</p>
+                    <p className="text-gray-400">contact@newtong.com</p>
+                    <p className="text-gray-400">sales@newtong.com</p>
                   </div>
                 </div>
 
@@ -173,7 +173,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-white mb-1">Telegram</h3>
-                    <p className="text-gray-400">@rongxin_support</p>
+                    <p className="text-gray-400">@newtong_support</p>
                   </div>
                 </div>
 
@@ -185,7 +185,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-white mb-1">微信</h3>
-                    <p className="text-gray-400">rongxin_official</p>
+                    <p className="text-gray-400">newtong_official</p>
                   </div>
                 </div>
               </div>
@@ -194,10 +194,10 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
             <div className="p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10">
               <h3 className="text-xl font-bold text-white mb-4">全球销售团队</h3>
               <div className="space-y-3 text-gray-300">
-                <p>🌏 亚太区：support-apac@rongxin.com</p>
-                <p>🌍 中东区：support-mena@rongxin.com</p>
-                <p>🌎 欧洲区：support-eu@rongxin.com</p>
-                <p>🌏 非洲区：support-africa@rongxin.com</p>
+                <p>🌏 亚太区：support-apac@newtong.com</p>
+                <p>🌍 中东区：support-mena@newtong.com</p>
+                <p>🌎 欧洲区：support-eu@newtong.com</p>
+                <p>🌏 非洲区：support-africa@newtong.com</p>
               </div>
             </div>
 

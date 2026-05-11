@@ -45,7 +45,7 @@ export default function Navigation() {
                 <span className="text-white font-bold text-lg">R</span>
               </div>
               <span className="text-white font-semibold text-lg hidden sm:block">
-                RongXin
+                Newtong
               </span>
             </Link>
           </div>

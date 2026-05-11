@@ -18,7 +18,7 @@ export default function Footer({ locale }: { locale: string }) {
               <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-lg">R</span>
               </div>
-              <span className="text-white font-semibold text-lg">RongXin</span>
+              <span className="text-white font-semibold text-lg">Newtong</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Global AI Communication Platform for Modern Enterprises
@@ -63,7 +63,7 @@ export default function Footer({ locale }: { locale: string }) {
         <div className="mt-12 pt-8 border-t border-white/5">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {currentYear} RongXin. All rights reserved.
+              © {currentYear} Newtong. All rights reserved.
             </p>
 
             <div className="flex space-x-6 mt-4 md:mt-0">

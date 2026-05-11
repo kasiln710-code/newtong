@@ -118,9 +118,9 @@ export default async function TechnicalPage({ params }: { params: Promise<{ loca
             </div>
             <pre className="text-sm text-green-400 overflow-x-auto">
 {`// Node.js Example
-const RongXin = require('@rongxin/sdk');
+const Newtong = require('@newtong/sdk');
 
-const client = new RongXin({
+const client = new Newtong({
   apiKey: 'YOUR_API_KEY',
   apiSecret: 'YOUR_API_SECRET'
 });
