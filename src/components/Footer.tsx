@@ -14,14 +14,22 @@ export default function Footer({ locale }: { locale: string }) {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">R</span>
-              </div>
-              <span className="text-white font-semibold text-lg">Newtong</span>
+            <div className="flex items-center space-x-2.5 mb-4">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="32" height="32" rx="8" fill="url(#logo-grad-footer)" />
+                <path d="M10 22V14C10 10.686 12.686 8 16 8C19.314 8 22 10.686 22 14V22" stroke="white" strokeWidth="2.5" strokeLinecap="round" />
+                <circle cx="16" cy="11" r="1.5" fill="white" />
+                <defs>
+                  <linearGradient id="logo-grad-footer" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                    <stop stopColor="#3B82F6" />
+                    <stop offset="1" stopColor="#06B6D4" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              <span className="text-white font-semibold text-lg">神通i</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Global AI Communication Platform for Modern Enterprises
+              全球 AI 智能通信平台 · Global AI Communication Platform
             </p>
           </div>
 

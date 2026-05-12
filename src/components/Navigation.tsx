@@ -40,12 +40,20 @@ export default function Navigation() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href={`/${locale}`} className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">R</span>
-              </div>
+            <Link href={`/${locale}`} className="flex items-center space-x-2.5">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="32" height="32" rx="8" fill="url(#logo-grad-nav)" />
+                <path d="M10 22V14C10 10.686 12.686 8 16 8C19.314 8 22 10.686 22 14V22" stroke="white" strokeWidth="2.5" strokeLinecap="round" />
+                <circle cx="16" cy="11" r="1.5" fill="white" />
+                <defs>
+                  <linearGradient id="logo-grad-nav" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                    <stop stopColor="#3B82F6" />
+                    <stop offset="1" stopColor="#06B6D4" />
+                  </linearGradient>
+                </defs>
+              </svg>
               <span className="text-white font-semibold text-lg hidden sm:block">
-                Newtong
+                神通i
               </span>
             </Link>
           </div>
