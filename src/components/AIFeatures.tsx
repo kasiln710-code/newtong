@@ -64,8 +64,17 @@ export default function AIFeatures() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="mt-20 p-12 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10"
+          className="mt-20"
         >
+          <div className="text-center mb-10">
+            <h3 className="text-2xl font-bold text-white mb-4">
+              {t('workflow.title')}
+            </h3>
+            <p className="text-gray-400 max-w-3xl mx-auto leading-relaxed">
+              {t('workflow.description')}
+            </p>
+          </div>
+          <div className="p-12 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             {['Input', 'AI Processing', 'Output', 'Analytics'].map((step, i) => (
               <div key={i} className="flex items-center">
@@ -94,6 +103,7 @@ export default function AIFeatures() {
                 )}
               </div>
             ))}
+          </div>
           </div>
         </motion.div>
       </div>

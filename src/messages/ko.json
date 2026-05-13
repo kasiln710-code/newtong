@@ -28,7 +28,8 @@
     "email": {
       "title": "이메일 서비스",
       "description": "글로벌 고도달률 이메일 기능으로 마케팅 이메일 및 시스템 알림을 지원합니다."
-    }
+    },
+    "learnMore": "자세히 보기"
   },
   "ai": {
     "title": "AI 기반 글로벌 고객 운영",
@@ -40,6 +41,10 @@
       "tags": "지능형 고객 태그",
       "translate": "다국어 자동 번역",
       "marketing": "자동화 마케팅 프로세스"
+    },
+    "workflow": {
+      "title": "지능형 통신 서비스 흐름",
+      "description": "데이터 입력부터 지능형 분석까지, OmniConnect는 기업 통신 요구를 측정 가능하고 최적화된 자동화 워크플로우로 전환합니다."
     }
   },
   "industries": {
@@ -57,5 +62,282 @@
     "services": "서비스 센터",
     "technical": "기술적 이점",
     "about": "회사 소개"
+  },
+  "onboarding": {
+    "title": "시작하기",
+    "description": "3단계로 빠르게 OmniConnect를 통합하여 글로벌 고객에게 즉시 도달하세요. 5분 안에 시작할 수 있습니다.",
+    "step1": {
+      "title": "1단계: 등록",
+      "description": "기업 등록을 완료하고 기본 정보를 제출하면 즉시 샌드박스 환경에 액세스할 수 있습니다."
+    },
+    "step2": {
+      "title": "2단계: API 통합",
+      "description": "RESTful API, 공식 SDK(Python/Node.js/Java/PHP) 또는 SMTP 릴레이 중 선택하세요."
+    },
+    "step3": {
+      "title": "3단계: 운영 시작",
+      "description": "테스트 후 원클릭으로 프로덕션 환경으로 전환하세요. 실시간 대시보드로 핵심 지표를 모니터링할 수 있습니다."
+    },
+    "cta": "지금 등록하기"
+  },
+  "solutions": {
+    "title": "맞춤형 커뮤니케이션 솔루션",
+    "description": "전문가 팀이 최적의 커뮤니케이션 전략을 설계합니다.",
+    "process": {
+      "title": "솔루션 설계 프로세스",
+      "description": "요구사항 논의 → 시나리오 분석 → 솔루션 설계 → 샌드박스 테스트 → 출시 및 최적화"
+    },
+    "includes": {
+      "title": "포함 사항",
+      "description": "채널 선택 조언, 메시지 템플릿 설계, 발송 전략 최적화, A/B 테스트 계획, 분석 보고서, 비용 최적화 권장사항"
+    },
+    "cta": "상담 예약하기"
+  },
+  "docs": {
+    "title": "API 문서",
+    "description": "SMS, WhatsApp, 음성, 이메일 등 여러 채널을 통합 호출할 수 있는 엔터프라이즈급 RESTful API.",
+    "auth": {
+      "title": "인증",
+      "description": "API Key + Secret 서명 인증 및 OAuth 2.0 지원. 모든 요청은 HTTPS로 암호화됩니다."
+    },
+    "sms": {
+      "description": "POST /v1/sms/send — 단일/대량 SMS 발송, 템플릿 변수, 예약 발송, 상태 콜백 지원."
+    },
+    "whatsapp": {
+      "description": "POST /v1/whatsapp/send — 텍스트, 이미지, 문서, 템플릿 메시지 발송."
+    },
+    "voice": {
+      "description": "POST /v1/voice/call — AI 음성 발신, TTS, 다중 대화 흐름 구성."
+    },
+    "email": {
+      "description": "POST /v1/email/send — HTML/일반 텍스트 이메일 발송, 템플릿 변수, 첨부 파일 지원."
+    },
+    "cta": "전체 문서 보기"
+  },
+  "sms": {
+    "title": "글로벌 SMS 서비스",
+    "description": "전 세계 800개 이상의 통신사와 직접 연결된 고안정성, 고도달률 국제 SMS 서비스.",
+    "overview": {
+      "title": "SMS 기술 발전",
+      "description": "2G 시대의 단순 텍스트에서 오늘날의 RCS 리치 메시징까지 SMS 기술은 깊은 변화를 겪었습니다."
+    },
+    "trends": {
+      "title": "업계 동향",
+      "description": "RCS가 전통적인 SMS를 대체 중; 10DLC가 미국 A2P 표준으로 부상; OTP는 여전히 계정 보안의 주류; AI 기반 스마트 라우팅."
+    },
+    "ai": {
+      "title": "AI 기반 SMS",
+      "description": "AI가 개인화된 마케팅 문구를 자동 작성하여 오픈율 40%+ 향상; ML이 최적 발송 시간 최적화."
+    },
+    "business": {
+      "title": "비즈니스 가치",
+      "description": "OTP 인증코드 초 단위 전달; 마케팅 알림; 거래 알림 실시간 동기화; 평균 오픈율 98%."
+    },
+    "global": {
+      "title": "글로벌 배포",
+      "description": "전 세계 30개 이상의 데이터 센터 노드로 현지 통신사와 직접 연결."
+    },
+    "cta": "홈으로 돌아가기"
+  },
+  "whatsapp": {
+    "title": "WhatsApp Business",
+    "description": "Meta 공식 BSP로서 전 세계 20억 WhatsApp 사용자와 브랜드를 연결합니다.",
+    "overview": {
+      "title": "WhatsApp 비즈니스 발전",
+      "description": "2018년 출시 이후 WhatsApp Business API는 기업-고객 커뮤니케이션을 근본적으로 변화시켰습니다."
+    },
+    "trends": {
+      "title": "플랫폼 동향",
+      "description": "WhatsApp Flows로 채팅 내 양식 작성; 인도, 브라질에서 채팅 내 결제 지원; AI 챗봇 24/7 지원."
+    },
+    "ai": {
+      "title": "AI + WhatsApp",
+      "description": "LLM 기반 NLU로 80%+ 문의 자동 처리; 대화 기록 분석으로 스마트 제품 추천; 감정 감지."
+    },
+    "business": {
+      "title": "비즈니스 시나리오",
+      "description": "주문 알림, 물류 추적, 판매 전후 지원; 정밀 타겟 마케팅; 메시지 오픈율 98%."
+    },
+    "global": {
+      "title": "글로벌 진출",
+      "description": "모든 주요 시장에서 API 통합 완료, 다국어 메시지 템플릿 지원."
+    },
+    "cta": "홈으로 돌아가기"
+  },
+  "voice": {
+    "title": "AI 음성 봇",
+    "description": "최첨단 TTS와 ASR 기술에 LLM을 결합하여 자연스러운 다중 대화를 제공합니다.",
+    "overview": {
+      "title": "음성 AI 발전",
+      "description": "IVR 메뉴에서 자연어 이해로의 도약. GPT-4o가 음성 상호작용 지연을 200ms 미만으로 단축."
+    },
+    "trends": {
+      "title": "기술 동향",
+      "description": "GPT-4o, Gemini Live로 밀리초 단위 음성 응답; 감정적 TTS; 다국어 혼합 인식."
+    },
+    "ai": {
+      "title": "핵심 AI 기술",
+      "description": "Transformer 기반 의도 인식 95%+ 정확도; 상태 머신 + AI 하이브리드 아키텍처."
+    },
+    "business": {
+      "title": "주요 응용",
+      "description": "추심 알림; 판매 후 만족도 자동 조사; 의료/미용 예약 확인; 인건비 60%+ 절감."
+    },
+    "global": {
+      "title": "글로벌 음성 네트워크",
+      "description": "100개 이상 국가에서 현지 번호 표시 지원. 40개 이상 언어 TTS 엔진."
+    },
+    "cta": "홈으로 돌아가기"
+  },
+  "email": {
+    "title": "이메일 서비스",
+    "description": "99.5% 받은편지함 도달률을 제공하는 클라우드 아키텍처 기업 이메일 플랫폼.",
+    "overview": {
+      "title": "이메일 마케팅 발전",
+      "description": "50년 이상 된 이메일은 여전히 ROI가 가장 높은 마케팅 채널입니다(1달러당 36달러 수익)."
+    },
+    "trends": {
+      "title": "업계 동향",
+      "description": "BIMI 브랜드 표시기; AMP for Email; 초개인화; 이메일+SMS+WhatsApp 옴니채널."
+    },
+    "ai": {
+      "title": "AI 기반 이메일",
+      "description": "AI가 높은 오픈율의 제목 생성; ML이 사용자별 최적 발송 시간 예측."
+    },
+    "business": {
+      "title": "비즈니스 시나리오",
+      "description": "환영 이메일로 활성화 50% 향상; 프로모션 이메일; 장바구니 포기 복구."
+    },
+    "global": {
+      "title": "글로벌 전달성",
+      "description": "Gmail, Outlook 등 주요 제공업체와 화이트리스트 관계 구축."
+    },
+    "cta": "홈으로 돌아가기"
+  },
+  "industryEcommerce": {
+    "title": "크로스보더 이커머스",
+    "description": "다중 시간대, 언어, 통화에 걸친 복잡한 고객 접점 요구.",
+    "sms": {
+      "title": "SMS",
+      "description": "OTP 인증; 즉시 주문 확인; 프로모션 SMS."
+    },
+    "whatsapp": {
+      "title": "WhatsApp Business",
+      "description": "WhatsApp으로 주문 업데이트 및 물류 추적 발송."
+    },
+    "voice": {
+      "title": "AI 음성 봇",
+      "description": "고위험 주문 확인 자동 발신; VIP 고객 스마트 알림."
+    },
+    "email": {
+      "title": "이메일 마케팅",
+      "description": "환영 이메일 + 자동화 시퀀스; 개인화 추천."
+    },
+    "cta": "홈으로 돌아가기"
+  },
+  "industryFinance": {
+    "title": "국제 금융",
+    "description": "실시간, 안전하고 규정을 준수하는 통신이 필요한 금융 산업.",
+    "sms": {
+      "title": "SMS",
+      "description": "거래 인증코드; 대규모 거래 알림."
+    },
+    "whatsapp": {
+      "title": "WhatsApp Business",
+      "description": "암호화된 거래 확인; VIP 고객 자산 관리."
+    },
+    "voice": {
+      "title": "AI 음성 봇",
+      "description": "의심스러운 거래 확인; 상환 알림."
+    },
+    "email": {
+      "title": "이메일 마케팅",
+      "description": "월간 명세서; 개인화 금융 상품 추천."
+    },
+    "cta": "홈으로 돌아가기"
+  },
+  "industrySaas": {
+    "title": "SaaS 소프트웨어",
+    "description": "지속적인 사용자 활성화, 유지 및 갱신이 필요한 SaaS 기업.",
+    "sms": {
+      "title": "SMS",
+      "description": "등록 인증코드; 비정상 로그인 알림."
+    },
+    "whatsapp": {
+      "title": "WhatsApp Business",
+      "description": "제품 데모 예약; 고객 성공 후속 조치."
+    },
+    "voice": {
+      "title": "AI 음성 봇",
+      "description": "체험판 만료 알림; 이탈 사용자 유지."
+    },
+    "email": {
+      "title": "이메일 마케팅",
+      "description": "온보딩 자동화 이메일; 주간 제품 보고서."
+    },
+    "cta": "홈으로 돌아가기"
+  },
+  "industryGaming": {
+    "title": "게임 글로벌 진출",
+    "description": "전 세계 플레이어의 다양한 커뮤니케이션 요구.",
+    "sms": {
+      "title": "SMS",
+      "description": "글로벌 OTP 인증; 충전 확인 알림."
+    },
+    "whatsapp": {
+      "title": "WhatsApp Business",
+      "description": "게임 업데이트 및 시즌 알림."
+    },
+    "voice": {
+      "title": "AI 음성 봇",
+      "description": "VIP 플레이어 구매 확인; 복귀 유도."
+    },
+    "email": {
+      "title": "이메일 마케팅",
+      "description": "게임 업데이트 로그; 시즌 요약."
+    },
+    "cta": "홈으로 돌아가기"
+  },
+  "industryLogistics": {
+    "title": "국제 물류",
+    "description": "긴 사슬과 많은 노드를 가진 국제 물류.",
+    "sms": {
+      "title": "SMS",
+      "description": "픽업/배송 확인 코드; 주요 마일스톤 알림."
+    },
+    "whatsapp": {
+      "title": "WhatsApp Business",
+      "description": "지도 링크가 포함된 패키지 추적."
+    },
+    "voice": {
+      "title": "AI 음성 봇",
+      "description": "배송 전 시간 확인; 불분명한 주소 확인."
+    },
+    "email": {
+      "title": "이메일 마케팅",
+      "description": "국경 간 물류 추적; 세관 통지."
+    },
+    "cta": "홈으로 돌아가기"
+  },
+  "industrySocial": {
+    "title": "해외 소셜 플랫폼",
+    "description": "수십억 사용자를 위한 대규모 실시간 알림 처리.",
+    "sms": {
+      "title": "SMS",
+      "description": "등록/로그인 인증코드; 계정 보안 알림."
+    },
+    "whatsapp": {
+      "title": "WhatsApp Business",
+      "description": "중요 보안 알림; 트렌드 콘텐츠 추천."
+    },
+    "voice": {
+      "title": "AI 음성 봇",
+      "description": "실명 인증 음성 코드; 고위험 작업 확인."
+    },
+    "email": {
+      "title": "이메일 마케팅",
+      "description": "주간 큐레이션 콘텐츠; 친구 활동 다이제스트."
+    },
+    "cta": "홈으로 돌아가기"
   }
 }

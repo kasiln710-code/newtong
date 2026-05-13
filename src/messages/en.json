@@ -28,7 +28,8 @@
     "email": {
       "title": "Email Service",
       "description": "Global high-deliverability email capabilities, supporting marketing emails and system notifications."
-    }
+    },
+    "learnMore": "Learn More"
   },
   "ai": {
     "title": "AI-Powered Global Customer Operations",
@@ -57,5 +58,140 @@
     "services": "Services",
     "technical": "Technical",
     "about": "About Us"
+  },
+  "ai": {
+    "title": "AI-Powered Global Customer Operations",
+    "description": "Through AI automation capabilities, upgrade communication from a \"sending tool\" to a \"customer growth system\".",
+    "features": {
+      "chatbot": "AI Customer Service Bot",
+      "sales": "AI Sales Assistant",
+      "reply": "AI Auto Reply",
+      "tags": "Intelligent Customer Tags",
+      "translate": "Multi-language Auto Translation",
+      "marketing": "Automated Marketing Workflows"
+    },
+    "workflow": {
+      "title": "Intelligent Communication Service Flow",
+      "description": "From data input to intelligent analytics, OmniConnect transforms enterprise communication needs into measurable, optimizable automated workflows — ensuring every customer touchpoint is precise and efficient."
+    }
+  },
+  "onboarding": {
+    "title": "Get Started",
+    "description": "Three-step quick integration with OmniConnect to reach global customers instantly. Get started in as fast as 5 minutes.",
+    "step1": { "title": "Step 1: Register", "description": "Complete enterprise registration, submit basic information and get instant sandbox access — no waiting for approval." },
+    "step2": { "title": "Step 2: Integrate API", "description": "Choose RESTful API, official SDKs (Python/Node.js/Java/PHP) or SMTP relay. Comprehensive docs help you get started quickly." },
+    "step3": { "title": "Step 3: Go Live", "description": "After testing, switch to production with one click. Real-time dashboard lets you monitor delivery rates and key metrics." },
+    "cta": "Register Now"
+  },
+  "solutions": {
+    "title": "Get Custom Communication Solutions",
+    "description": "Expert team crafts your optimal communication strategy. Deep analysis of your business scenarios to design the most cost-effective communication mix.",
+    "process": { "title": "Solution Design Process", "description": "Requirements discussion → Scenario analysis → Solution design → Sandbox testing → Launch & optimize, with dedicated 1-on-1 consulting throughout." },
+    "includes": { "title": "What's Included", "description": "Channel selection advice, message template design, sending strategy optimization, A/B testing plans, analytics reports, cost optimization recommendations." },
+    "cta": "Book a Consultation"
+  },
+  "docs": {
+    "title": "API Documentation",
+    "description": "Enterprise-grade RESTful API supporting unified calls across SMS, WhatsApp, Voice, and Email channels. Complete docs and sandbox environment for 5-minute integration.",
+    "auth": { "title": "Authentication", "description": "Supports API Key + Secret signature authentication and OAuth 2.0. All requests encrypted via HTTPS." },
+    "sms": { "description": "POST /v1/sms/send — Send single/batch SMS with template variables, scheduled sending, and delivery status callbacks." },
+    "whatsapp": { "description": "POST /v1/whatsapp/send — Send text, images, documents, and template messages with interactive buttons and quick replies." },
+    "voice": { "description": "POST /v1/voice/call — Initiate AI voice calls with TTS text-to-speech and multi-turn conversation flow configuration." },
+    "email": { "description": "POST /v1/email/send — Send HTML/plain text emails with template variables, attachments, and batch sending." },
+    "cta": "View Full Documentation"
+  },
+  "sms": {
+    "title": "Global SMS Service",
+    "description": "Highly stable, high-deliverability international SMS covering verification, notifications, and marketing with 800+ direct carrier connections worldwide.",
+    "overview": { "title": "SMS Technology Evolution", "description": "From simple text transmission in 2G to today's RCS rich messaging, SMS technology has undergone profound transformation. Modern enterprise SMS integrates dynamic links, brand verification, and two-way interaction. The A2P SMS market is projected to exceed $78 billion by 2028." },
+    "trends": { "title": "Industry Trends", "description": "RCS rich messaging gradually replacing traditional SMS; 10DLC becoming new US A2P standard; OTP remains mainstream for account security; AI-driven smart routing and semantic replies reshaping the industry." },
+    "ai": { "title": "AI-Powered SMS", "description": "AI auto-writes personalized marketing copy boosting open rates 40%+; ML optimizes send timing doubling CTR; real-time spam filtering protects brand reputation; smart routing auto-selects optimal carrier achieving 99% delivery rates." },
+    "business": { "title": "Business Value", "description": "OTP verification delivered in seconds; marketing notifications directly to user phones; transaction alerts in real time; two-way SMS interaction for customer service. Average 98% open rate — 5x higher than email." },
+    "global": { "title": "Global Deployment", "description": "30+ data center nodes globally with direct carrier interconnections. Local number sending builds user trust. Intelligent routing algorithms ensure fast, reliable delivery to every corner of the world." },
+    "cta": "Back to Home"
+  },
+  "whatsapp": {
+    "title": "WhatsApp Business",
+    "description": "Meta-official BSP connecting your brand with 2 billion WhatsApp users to build rich conversational experiences.",
+    "overview": { "title": "WhatsApp Business Evolution", "description": "Since its 2018 launch, WhatsApp Business API has fundamentally changed business-customer communication. In 2024, Meta introduced Flows and Payments, enabling complete transaction closures within WhatsApp." },
+    "trends": { "title": "Platform Trends", "description": "WhatsApp Flows enable in-chat form filling and booking; Payments available in India, Brazil and more; Product catalogs directly on WhatsApp; AI chatbots deliver 24/7 smart support; Broadcast messaging with unmatched open rates." },
+    "ai": { "title": "AI + WhatsApp", "description": "LLM-based NLU handles 80%+ inquiries with real-time multi-language translation; conversation history analysis for smart product recommendations; emotion detection auto-escalates angry customers; auto-generated conversation summaries." },
+    "business": { "title": "Business Scenarios", "description": "Order notifications, logistics tracking, pre and post-sales support all in one place; precision-targeted marketing campaigns; abandoned cart recovery; secure identity verification. Message open rates reach 98%." },
+    "global": { "title": "Global Reach", "description": "WhatsApp is the world's most widely used messaging app. OmniConnect has completed API integration in all major markets with multi-language message templates for high-penetration markets in Southeast Asia, Middle East, Latin America, and Africa." },
+    "cta": "Back to Home"
+  },
+  "voice": {
+    "title": "AI Voice Bot",
+    "description": "Cutting-edge TTS and ASR technology combined with LLMs delivering natural, fluent multi-turn voice conversations.",
+    "overview": { "title": "Voice AI Evolution", "description": "From IVR menus to natural language understanding, modern AI voice bots understand context, perceive emotions, and make autonomous decisions. GPT-4o reduces voice interaction latency to under 200ms, approaching human-like conversations." },
+    "trends": { "title": "Technology Trends", "description": "GPT-4o and Gemini Live achieve millisecond voice response; emotional TTS moves beyond robotic reading; mixed-language recognition and reply; brand voice cloning; AI predicts user intent and proactively guides conversations." },
+    "ai": { "title": "Core AI Technology", "description": "Transformer-based intent recognition with 95%+ accuracy; state machine + AI hybrid architecture ensures uninterrupted complex business flows; supports barge-in and re-plans dialogue; real-time sentiment analysis dynamically adjusts conversation tone." },
+    "business": { "title": "Typical Applications", "description": "Collection reminders with compliant call recording; post-sale satisfaction surveys auto-generating reports; healthcare and beauty appointment confirmation; AI screens interested prospects and books demos for sales. Labor costs reduced 60%+, outreach efficiency increased 10x." },
+    "global": { "title": "Global Voice Network", "description": "Worldwide voice gateway network supporting local number display in 100+ countries. Multi-language TTS engine covering 40+ languages for natural local-language conversations in any market." },
+    "cta": "Back to Home"
+  },
+  "email": {
+    "title": "Email Service",
+    "description": "Cloud-architecture enterprise email platform delivering 99.5% inbox placement with drag-and-drop templates, automated sequences, A/B testing, and detailed analytics.",
+    "overview": { "title": "Email Marketing Evolution", "description": "Email has been around for over 50 years but remains the highest ROI marketing channel ($36 return per $1 spent). Modern email has evolved from bulk blasting to one-to-one personalization. AI-driven systems automatically push customized content based on user behavior." },
+    "trends": { "title": "Industry Trends", "description": "BIMI brand indicators boost inbox trust; AMP for Email enables dynamic in-email interactions; AI generates hyper-personalized content in real time; privacy-first drives cookieless email; email + SMS + WhatsApp omnichannel automation." },
+    "ai": { "title": "AI-Powered Email", "description": "AI generates high-open-rate subject lines with A/B test auto-selection; ML predicts optimal send window per user; auto-generates personalized content based on profiles and behavior; AI monitors IP reputation and auto-optimizes to avoid spam folders." },
+    "business": { "title": "Business Scenarios", "description": "Welcome emails boost activation by 50%; promotional emails precision-target users; abandoned cart recovery sequences auto-triggered; order confirmations and invoices auto-sent. Automated sequences generate 30%+ incremental revenue for e-commerce." },
+    "global": { "title": "Global Deliverability", "description": "20+ sending nodes globally with whitelist relationships with Gmail, Outlook, and other major providers. Intelligent routing auto-selects optimal sending IP, ensuring emails land in inboxes, not spam folders." },
+    "cta": "Back to Home"
+  },
+  "industryEcommerce": {
+    "title": "Cross-border E-commerce",
+    "description": "Complex customer engagement needs across time zones, languages, and currencies. OmniConnect provides a one-stop communication solution from purchase to repurchase.",
+    "sms": { "title": "SMS", "description": "OTP verification for account and payment security; instant order confirmation and shipping alerts; precision marketing SMS during promotions; multi-language templates for global markets." },
+    "whatsapp": { "title": "WhatsApp Business", "description": "Send order updates and logistics tracking via WhatsApp in high-penetration markets; provide pre and post-sales support — all within the app users already know." },
+    "voice": { "title": "AI Voice Bot", "description": "Auto-dial to confirm high-risk orders preventing fraud; smart notifications to VIP customers during sales; AI outbound calls for cart abandonment recovery boosting conversion 20%+." },
+    "email": { "title": "Email Marketing", "description": "Welcome email + automated sequences nurture new customers; personalized recommendations based on browsing and purchase history; abandoned cart recovery generating 30%+ incremental revenue." },
+    "cta": "Back to Home"
+  },
+  "industryFinance": {
+    "title": "International Finance",
+    "description": "The financial industry demands real-time, secure, and compliant communications. OmniConnect provides financial-grade communication infrastructure for banking, payments, and insurance.",
+    "sms": { "title": "SMS", "description": "Transaction verification codes delivered in milliseconds; real-time large-transaction notifications; automated risk alert SMS; compliance and regulatory notifications precisely targeted." },
+    "whatsapp": { "title": "WhatsApp Business", "description": "Encrypted transaction confirmations; VIP client dedicated wealth management advisory; automated bill and statement delivery. End-to-end encryption ensures information security." },
+    "voice": { "title": "AI Voice Bot", "description": "AI outbound calls to confirm suspicious transactions and block fraud in real time; automated repayment reminders with compliant call recording; investment maturity reminders with auto-scheduled manager callbacks." },
+    "email": { "title": "Email Marketing", "description": "Monthly statements auto-sent; personalized financial product recommendation emails; encrypted regulatory compliance emails; customer lifecycle marketing automation." },
+    "cta": "Back to Home"
+  },
+  "industrySaas": {
+    "title": "SaaS Software",
+    "description": "SaaS companies need continuous user activation, retention, and renewal. OmniConnect delivers automated communication covering the full user lifecycle.",
+    "sms": { "title": "SMS", "description": "Registration verification codes delivered instantly; real-time abnormal login alerts; renewal reminders sent before expiration; product update and feature release notifications." },
+    "whatsapp": { "title": "WhatsApp Business", "description": "Product demo booking, customer success follow-ups, and complaint escalation via WhatsApp. AI chatbot provides 24/7 global customer support." },
+    "voice": { "title": "AI Voice Bot", "description": "Auto-dial reminders when trials expire; AI retention calls to understand churn reasons and recommend alternatives; NPS satisfaction surveys via automated outbound calls." },
+    "email": { "title": "Email Marketing", "description": "Onboarding automated email sequences guide users through core features; weekly product reports with usage data and best practices; renewal countdown emails boosting retention rates." },
+    "cta": "Back to Home"
+  },
+  "industryGaming": {
+    "title": "Gaming Global Expansion",
+    "description": "Gaming globalization faces diverse communication needs from players worldwide. OmniConnect provides complete solutions from user acquisition to re-engagement.",
+    "sms": { "title": "SMS", "description": "Global OTP verification for account security; instant top-up confirmation notifications; limited-time event SMS to re-engage lapsed players; new server launch bulk notifications." },
+    "whatsapp": { "title": "WhatsApp Business", "description": "Send game updates and season notifications via WhatsApp in high-growth gaming markets; provide VIP player dedicated support channels." },
+    "voice": { "title": "AI Voice Bot", "description": "AI outbound calls to confirm unusual high-value player purchases; VIP player birthday AI voice greetings; lapsed player AI recall calls with return gift packs; anti-addiction reminders via automated calls." },
+    "email": { "title": "Email Marketing", "description": "Game update changelog email pushes; season summary and achievement showcase emails; holiday limited event previews; player surveys and feedback collection." },
+    "cta": "Back to Home"
+  },
+  "industryLogistics": {
+    "title": "International Logistics",
+    "description": "International logistics involves long chains and multiple nodes requiring reliable real-time customer notifications. OmniConnect delivers end-to-end logistics communication solutions.",
+    "sms": { "title": "SMS", "description": "Pickup and delivery confirmation codes sent in seconds; automatic key milestone notifications; real-time anomaly alerts; courier contact information via SMS." },
+    "whatsapp": { "title": "WhatsApp Business", "description": "Send package tracking messages with map links via WhatsApp; customers can contact support to modify address or schedule delivery within the app; delivery confirmation with photo upload." },
+    "voice": { "title": "AI Voice Bot", "description": "AI auto-dials to confirm delivery time before dispatch; smart outbound calls to verify unclear addresses; automated customs clearance document notifications; customer satisfaction automated follow-up calls." },
+    "email": { "title": "Email Marketing", "description": "Cross-border logistics full-chain tracking emails; customs duty and clearance notifications; electronic invoices and delivery confirmations auto-sent; VIP client exclusive logistics reports." },
+    "cta": "Back to Home"
+  },
+  "industrySocial": {
+    "title": "Overseas Social Platforms",
+    "description": "Social platforms need to handle massive real-time notifications and user verification. OmniConnect provides high-concurrency, low-latency communication infrastructure for billions of users.",
+    "sms": { "title": "SMS", "description": "Registration and login verification codes delivered globally in seconds; real-time account security alerts; one-tap friend invitation SMS; batch operational campaign pushes." },
+    "whatsapp": { "title": "WhatsApp Business", "description": "Leverage WhatsApp's high open rates for critical security notifications; push trending content recommendations to boost DAU; community operations and creator communication." },
+    "voice": { "title": "AI Voice Bot", "description": "Real-name verification via voice verification codes; secondary confirmation outbound calls for high-risk operations; VIP user dedicated AI support; content moderation result notifications." },
+    "email": { "title": "Email Marketing", "description": "Weekly curated content email pushes; friend activity digest notifications; privacy policy update compliance emails; user surveys and NPS rating emails." },
+    "cta": "Back to Home"
   }
 }

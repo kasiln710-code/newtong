@@ -44,7 +44,7 @@ export default function Hero({ locale }: { locale: string }) {
             className="flex flex-wrap justify-center gap-4"
           >
             <Link
-              href={`/${locale}/contact`}
+              href={`/${locale}/onboarding`}
               className="px-8 py-4 rounded-lg bg-gradient-to-r from-blue-500 to-cyan-400 text-white text-base font-semibold hover:shadow-2xl hover:shadow-blue-500/50 transition-all transform hover:scale-105"
             >
               {t('cta1')}

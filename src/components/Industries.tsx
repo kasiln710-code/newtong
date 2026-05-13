@@ -1,10 +1,12 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export default function Industries() {
   const t = useTranslations('industries');
+  const locale = useLocale();
 
   const industries = [
     {
@@ -80,8 +82,8 @@ export default function Industries() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {industries.map((industry, i) => (
+            <Link key={industry.key} href={`/${locale}/industries/${industry.key}`}>
             <motion.div
-              key={industry.key}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -105,6 +107,7 @@ export default function Industries() {
                 <div className="w-0 h-0.5 bg-gradient-to-r from-blue-500 to-cyan-400 group-hover:w-full transition-all duration-500"></div>
               </div>
             </motion.div>
+            </Link>
           ))}
         </div>
       </div>

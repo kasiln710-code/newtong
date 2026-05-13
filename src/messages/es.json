@@ -28,7 +28,8 @@
     "email": {
       "title": "Servicio de Correo Electrónico",
       "description": "Capacidad de correo electrónico global de alta entregabilidad, compatible con correos de marketing y notificaciones del sistema."
-    }
+    },
+    "learnMore": "Más Información"
   },
   "ai": {
     "title": "Operaciones Globales de Clientes Impulsadas por AI",
@@ -40,6 +41,10 @@
       "tags": "Etiquetas Inteligentes de Clientes",
       "translate": "Traducción Automática Multilingüe",
       "marketing": "Flujos de Trabajo de Marketing Automatizados"
+    },
+    "workflow": {
+      "title": "Flujo de Servicio de Comunicación Inteligente",
+      "description": "Desde la entrada de datos hasta el análisis inteligente, OmniConnect transforma las necesidades de comunicación empresarial en flujos automatizados medibles y optimizables."
     }
   },
   "industries": {
@@ -57,5 +62,282 @@
     "services": "Centro de Servicios",
     "technical": "Ventajas Técnicas",
     "about": "Acerca de Nosotros"
+  },
+  "onboarding": {
+    "title": "Comenzar",
+    "description": "Integración rápida en tres pasos. Comience en tan solo 5 minutos.",
+    "step1": {
+      "title": "Paso 1: Registrarse",
+      "description": "Complete el registro empresarial y obtenga acceso instantáneo al entorno sandbox."
+    },
+    "step2": {
+      "title": "Paso 2: Integrar API",
+      "description": "Elija API RESTful, SDKs oficiales o retransmisión SMTP."
+    },
+    "step3": {
+      "title": "Paso 3: Lanzamiento",
+      "description": "Cambie a producción con un clic después de las pruebas."
+    },
+    "cta": "Registrarse Ahora"
+  },
+  "solutions": {
+    "title": "Obtener Soluciones Personalizadas",
+    "description": "Nuestro equipo experto diseña su estrategia de comunicación óptima.",
+    "process": {
+      "title": "Proceso de Diseño",
+      "description": "Discusión de requisitos → Análisis → Diseño → Pruebas → Lanzamiento."
+    },
+    "includes": {
+      "title": "Qué Incluye",
+      "description": "Asesoramiento de canales, diseño de plantillas, optimización de envíos, pruebas A/B, informes."
+    },
+    "cta": "Reservar Consulta"
+  },
+  "docs": {
+    "title": "Documentación API",
+    "description": "API RESTful empresarial para llamadas unificadas a través de SMS, WhatsApp, Voz y Email.",
+    "auth": {
+      "title": "Autenticación",
+      "description": "API Key + Secret y OAuth 2.0. Todas las solicitudes cifradas HTTPS."
+    },
+    "sms": {
+      "description": "POST /v1/sms/send — Envío de SMS individual/lote."
+    },
+    "whatsapp": {
+      "description": "POST /v1/whatsapp/send — Texto, imágenes, documentos, plantillas."
+    },
+    "voice": {
+      "description": "POST /v1/voice/call — Llamadas de voz AI con TTS."
+    },
+    "email": {
+      "description": "POST /v1/email/send — Correos HTML/texto plano con archivos adjuntos."
+    },
+    "cta": "Ver Documentación Completa"
+  },
+  "sms": {
+    "title": "Servicio Global de SMS",
+    "description": "SMS internacional de alta estabilidad con conexiones directas a más de 800 operadores.",
+    "overview": {
+      "title": "Evolución de SMS",
+      "description": "Desde texto simple 2G hasta mensajería RCS actual."
+    },
+    "trends": {
+      "title": "Tendencias",
+      "description": "RCS reemplaza SMS tradicional; 10DLC nuevo estándar EE.UU."
+    },
+    "ai": {
+      "title": "SMS con IA",
+      "description": "IA genera copys personalizados aumentando aperturas 40%+."
+    },
+    "business": {
+      "title": "Valor Empresarial",
+      "description": "OTP en segundos; notificaciones marketing; alertas transaccionales."
+    },
+    "global": {
+      "title": "Despliegue Global",
+      "description": "Más de 30 nodos de datos globales con interconexiones directas."
+    },
+    "cta": "Volver al Inicio"
+  },
+  "whatsapp": {
+    "title": "WhatsApp Business",
+    "description": "BSP oficial de Meta conectando marcas con 2 mil millones de usuarios.",
+    "overview": {
+      "title": "Evolución de WhatsApp Business",
+      "description": "Lanzado en 2018, transformó la comunicación empresa-cliente."
+    },
+    "trends": {
+      "title": "Tendencias",
+      "description": "Flows, Pagos, Catálogos, Chatbots IA."
+    },
+    "ai": {
+      "title": "IA + WhatsApp",
+      "description": "NLU basado en LLM maneja el 80%+ de consultas."
+    },
+    "business": {
+      "title": "Escenarios",
+      "description": "Pedidos, seguimiento, soporte, marketing."
+    },
+    "global": {
+      "title": "Alcance Global",
+      "description": "Integración en todos los mercados principales."
+    },
+    "cta": "Volver al Inicio"
+  },
+  "voice": {
+    "title": "Bot de Voz IA",
+    "description": "Tecnología TTS y ASR combinada con LLMs para conversaciones naturales.",
+    "overview": {
+      "title": "Evolución de Voz IA",
+      "description": "De menús IVR a comprensión del lenguaje natural."
+    },
+    "trends": {
+      "title": "Tendencias",
+      "description": "GPT-4o respuesta en milisegundos; TTS emocional."
+    },
+    "ai": {
+      "title": "Tecnología IA Central",
+      "description": "Reconocimiento de intención Transformer 95%+ precisión."
+    },
+    "business": {
+      "title": "Aplicaciones",
+      "description": "Cobros, encuestas, recordatorios de citas."
+    },
+    "global": {
+      "title": "Red de Voz Global",
+      "description": "Más de 100 países con números locales."
+    },
+    "cta": "Volver al Inicio"
+  },
+  "email": {
+    "title": "Servicio de Email",
+    "description": "Plataforma empresarial con 99.5% de entregabilidad en bandeja de entrada.",
+    "overview": {
+      "title": "Evolución del Email Marketing",
+      "description": "Más de 50 años, sigue siendo el canal de mayor ROI."
+    },
+    "trends": {
+      "title": "Tendencias",
+      "description": "BIMI, AMP for Email, hiperpersonalización."
+    },
+    "ai": {
+      "title": "Email con IA",
+      "description": "IA genera asuntos de alta apertura; ML predice ventana óptima."
+    },
+    "business": {
+      "title": "Escenarios",
+      "description": "Emails de bienvenida, promociones, recuperación de carritos."
+    },
+    "global": {
+      "title": "Entregabilidad Global",
+      "description": "Más de 20 nodos con relaciones de lista blanca."
+    },
+    "cta": "Volver al Inicio"
+  },
+  "industryEcommerce": {
+    "title": "E-commerce Transfronterizo",
+    "description": "Necesidades complejas en múltiples zonas horarias, idiomas y monedas.",
+    "sms": {
+      "title": "SMS",
+      "description": "OTP, confirmaciones de pedido, SMS de marketing."
+    },
+    "whatsapp": {
+      "title": "WhatsApp Business",
+      "description": "Actualizaciones de pedidos y seguimiento logístico."
+    },
+    "voice": {
+      "title": "Bot de Voz IA",
+      "description": "Confirmación de pedidos de alto riesgo."
+    },
+    "email": {
+      "title": "Email Marketing",
+      "description": "Secuencias automatizadas de bienvenida."
+    },
+    "cta": "Volver al Inicio"
+  },
+  "industryFinance": {
+    "title": "Finanzas Internacionales",
+    "description": "Comunicaciones en tiempo real, seguras y conformes.",
+    "sms": {
+      "title": "SMS",
+      "description": "Códigos de verificación; alertas de transacciones."
+    },
+    "whatsapp": {
+      "title": "WhatsApp Business",
+      "description": "Confirmaciones cifradas; asesoría VIP."
+    },
+    "voice": {
+      "title": "Bot de Voz IA",
+      "description": "Confirmación de transacciones sospechosas."
+    },
+    "email": {
+      "title": "Email Marketing",
+      "description": "Estados de cuenta mensuales."
+    },
+    "cta": "Volver al Inicio"
+  },
+  "industrySaas": {
+    "title": "Software SaaS",
+    "description": "Activación continua de usuarios, retención y renovación.",
+    "sms": {
+      "title": "SMS",
+      "description": "Códigos de registro; alertas de inicio de sesión."
+    },
+    "whatsapp": {
+      "title": "WhatsApp Business",
+      "description": "Reserva de demostraciones; seguimiento de clientes."
+    },
+    "voice": {
+      "title": "Bot de Voz IA",
+      "description": "Recordatorios de vencimiento de prueba."
+    },
+    "email": {
+      "title": "Email Marketing",
+      "description": "Secuencias de onboarding automatizadas."
+    },
+    "cta": "Volver al Inicio"
+  },
+  "industryGaming": {
+    "title": "Expansión Global de Juegos",
+    "description": "Necesidades diversas de jugadores en todo el mundo.",
+    "sms": {
+      "title": "SMS",
+      "description": "OTP global; notificaciones de recarga."
+    },
+    "whatsapp": {
+      "title": "WhatsApp Business",
+      "description": "Actualizaciones y notificaciones de temporada."
+    },
+    "voice": {
+      "title": "Bot de Voz IA",
+      "description": "Verificación de compras de jugadores VIP."
+    },
+    "email": {
+      "title": "Email Marketing",
+      "description": "Registros de actualizaciones; resúmenes de temporada."
+    },
+    "cta": "Volver al Inicio"
+  },
+  "industryLogistics": {
+    "title": "Logística Internacional",
+    "description": "Cadenas largas con múltiples nodos que requieren notificaciones fiables.",
+    "sms": {
+      "title": "SMS",
+      "description": "Códigos de recogida/entrega; hitos clave."
+    },
+    "whatsapp": {
+      "title": "WhatsApp Business",
+      "description": "Seguimiento de paquetes con enlaces de mapa."
+    },
+    "voice": {
+      "title": "Bot de Voz IA",
+      "description": "Confirmación de hora de entrega."
+    },
+    "email": {
+      "title": "Email Marketing",
+      "description": "Seguimiento logístico transfronterizo."
+    },
+    "cta": "Volver al Inicio"
+  },
+  "industrySocial": {
+    "title": "Plataformas Sociales",
+    "description": "Notificaciones masivas en tiempo real para miles de millones de usuarios.",
+    "sms": {
+      "title": "SMS",
+      "description": "Verificación de registro/login; alertas de seguridad."
+    },
+    "whatsapp": {
+      "title": "WhatsApp Business",
+      "description": "Notificaciones de seguridad críticas."
+    },
+    "voice": {
+      "title": "Bot de Voz IA",
+      "description": "Verificación por voz para identidad real."
+    },
+    "email": {
+      "title": "Email Marketing",
+      "description": "Contenido curado semanal; resúmenes de actividad."
+    },
+    "cta": "Volver al Inicio"
   }
 }

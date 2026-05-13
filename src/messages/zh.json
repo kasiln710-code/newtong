@@ -28,7 +28,8 @@
     "email": {
       "title": "邮件服务",
       "description": "全球高送达邮件能力，支持营销邮件与系统通知。"
-    }
+    },
+    "learnMore": "了解更多"
   },
   "ai": {
     "title": "AI 驱动的全球客户运营",
@@ -57,5 +58,140 @@
     "services": "服务中心",
     "technical": "技术优势",
     "about": "关于我们"
+  },
+  "ai": {
+    "title": "AI 驱动的全球客户运营",
+    "description": "通过 AI 自动化能力,将通信从发送工具升级为客户增长系统。",
+    "features": {
+      "chatbot": "AI 客服机器人",
+      "sales": "AI 销售助手",
+      "reply": "AI 自动回复",
+      "tags": "智能客户标签",
+      "translate": "多语言自动翻译",
+      "marketing": "自动化营销流程"
+    },
+    "workflow": {
+      "title": "智能通信服务流程",
+      "description": "从数据输入到智能分析，OmniConnect 将企业通信需求转化为可量化、可优化的自动化流程，让每一次客户触达都精准高效。"
+    }
+  },
+  "onboarding": {
+    "title": "开始接入",
+    "description": "三步快速集成 OmniConnect，即刻触达全球客户。无论您的技术栈是什么，最快 5 分钟完成接入。",
+    "step1": { "title": "第一步：注册账号", "description": "完成企业注册，提交基本资料后即获沙盒环境权限，无需等待审核。" },
+    "step2": { "title": "第二步：集成 API", "description": "选择 RESTful API、官方 SDK (Python/Node.js/Java/PHP) 或 SMTP 中继，详细文档助您快速上手。" },
+    "step3": { "title": "第三步：上线运营", "description": "完成测试后一键切换生产环境，实时监控面板让您随时掌握送达率等关键指标。" },
+    "cta": "立即注册"
+  },
+  "solutions": {
+    "title": "获取定制化通信方案",
+    "description": "专业团队为您量身打造最优通信策略，深入分析业务场景，设计最具性价比的通信组合。",
+    "process": { "title": "方案定制流程", "description": "需求沟通 → 场景分析 → 方案设计 → 沙盒测试 → 上线优化，全程专属顾问 1 对 1 服务。" },
+    "includes": { "title": "方案包含", "description": "通道选择建议、消息模板设计、发送策略优化、A/B 测试方案、数据分析报表、成本优化建议。" },
+    "cta": "预约方案咨询"
+  },
+  "docs": {
+    "title": "API 接口文档",
+    "description": "企业级 RESTful API，支持 SMS、WhatsApp、语音、邮件等多通道统一调用。完善的文档与沙盒环境，5 分钟快速接入。",
+    "auth": { "title": "认证方式", "description": "支持 API Key + Secret 签名认证与 OAuth 2.0，所有请求通过 HTTPS 加密传输。" },
+    "sms": { "description": "POST /v1/sms/send — 单条/批量发送短信，支持模板变量、定时发送、状态回调。" },
+    "whatsapp": { "description": "POST /v1/whatsapp/send — 发送文本、图片、文档、模板消息，支持交互式按钮与快速回复。" },
+    "voice": { "description": "POST /v1/voice/call — 发起 AI 语音外呼，支持 TTS 文本转语音、多轮对话流程配置。" },
+    "email": { "description": "POST /v1/email/send — 发送 HTML/纯文本邮件，支持模板变量、附件、批量发送。" },
+    "cta": "查看完整文档"
+  },
+  "sms": {
+    "title": "全球短信服务",
+    "description": "高稳定、高到达率国际短信服务，覆盖验证码、通知、营销等多场景，直连全球 800+ 运营商。",
+    "overview": { "title": "短信技术演进", "description": "从 2G 时代的简单文本到如今的 RCS 富媒体消息，短信技术经历了深刻变革。现代企业短信融合了动态链接、品牌验证、双向交互等能力，A2P 短信市场预计 2028 年突破 780 亿美元。" },
+    "trends": { "title": "行业趋势", "description": "RCS 富媒体消息逐步替代传统 SMS；10DLC 成为美国 A2P 新标准；OTP 仍是账户安全主流验证方式；AI 驱动的智能路由与语义回复正在重塑行业。" },
+    "ai": { "title": "AI 赋能短信", "description": "AI 自动撰写个性化营销文案提升打开率 40%+；机器学习优化发送时机使 CTR 翻倍；实时垃圾短信过滤保护品牌声誉；智能路由自动选择最优运营商，送达率高达 99%。" },
+    "business": { "title": "业务价值", "description": "OTP 验证码秒级送达保障账户安全；营销通知直达用户手机；交易提醒实时同步；双向短信互动解决客户问题。平均打开率 98%，是邮件的 5 倍。" },
+    "global": { "title": "全球化部署", "description": "全球 30+ 数据中心节点直连各地运营商，本地号码发送提升用户信任。智能路由算法自动选择最优通道，确保全球任意角落消息快速稳定送达。" },
+    "cta": "返回首页"
+  },
+  "whatsapp": {
+    "title": "WhatsApp Business",
+    "description": "Meta 官方认证 BSP，连接全球 20 亿 WhatsApp 用户，帮助企业建立丰富的对话体验。",
+    "overview": { "title": "WhatsApp 商务发展", "description": "WhatsApp Business API 自 2018 年推出以来彻底改变了企业与客户的沟通方式。2024 年 Meta 推出 Flows 和 Payments，可在 WhatsApp 内完成完整交易闭环。" },
+    "trends": { "title": "平台趋势", "description": "WhatsApp Flows 支持聊天内表单预约；印度巴西等地已支持聊天内支付；企业可直接展示产品目录；AI 聊天机器人实现 24/7 智能客服；广播消息打开率远超传统渠道。" },
+    "ai": { "title": "AI + WhatsApp", "description": "基于 LLM 的自然语言理解自动处理 80%+ 客户咨询，支持多语言实时翻译；分析对话历史智能推荐产品；情绪检测自动升级愤怒客户至人工；自动生成对话摘要减少记录时间。" },
+    "business": { "title": "业务场景", "description": "订单通知、物流追踪、售前售后客服一站式完成；营销活动精准推送，弃购召回效果显著；身份验证安全高效。消息打开率高达 98%。" },
+    "global": { "title": "全球化布局", "description": "WhatsApp 是全球最广泛使用的即时通讯应用。OmniConnect 已完成全球主要市场 API 接入，支持多语言消息模板，帮助企业轻松触达东南亚、中东、拉美、非洲等高渗透率市场。" },
+    "cta": "返回首页"
+  },
+  "voice": {
+    "title": "AI 语音机器人",
+    "description": "领先的 TTS 语音合成与 ASR 语音识别技术，结合大语言模型，实现自然流畅的多轮语音对话。",
+    "overview": { "title": "语音 AI 技术演进", "description": "从 IVR 按键菜单到自然语言理解的跨越，现代 AI 语音机器人能理解上下文、感知情绪、自主决策。GPT-4o 等实时语音模型将延迟降至 200ms 内，体验接近真人对话。" },
+    "trends": { "title": "技术趋势", "description": "GPT-4o、Gemini Live 实现毫秒级语音响应；情感语音合成告别机械朗读；多语言混合识别与回复；品牌专属语音克隆；AI 预判用户意图主动引导对话。" },
+    "ai": { "title": "AI 核心技术", "description": "基于 Transformer 的意图识别准确率超 95%；状态机+AI 混合架构确保复杂业务流程不中断；支持随时打断并重新规划对话；实时情感分析动态调整话术。" },
+    "business": { "title": "典型应用", "description": "催收通知合规录音存档；售后满意度自动调研生成报告；医疗美业预约自动确认；AI 筛选意向客户为销售预约演示。人力成本降低 60%+，外呼效率提升 10 倍。" },
+    "global": { "title": "全球语音网络", "description": "遍布全球的语音网关网络支持 100+ 国家本地号码外显，多语言 TTS 引擎覆盖 40+ 语种，在任何市场用当地语言与客户自然交流。" },
+    "cta": "返回首页"
+  },
+  "email": {
+    "title": "邮件服务",
+    "description": "云端架构企业邮件平台，提供 99.5% 收件箱送达率。支持拖拽模板编辑、自动化序列、A/B 测试与详细分析。",
+    "overview": { "title": "邮件营销演进", "description": "电子邮件诞生 50 余年仍是 ROI 最高营销渠道（每 $1 投入回报 $36）。现代邮件营销已从批量群发进化为一对一个性化，AI 驱动系统根据用户行为自动推送定制内容。" },
+    "trends": { "title": "行业趋势", "description": "BIMI 品牌标识提升收件箱信任度；AMP for Email 支持邮件内动态交互；AI 实时生成超个性化内容；隐私优先推动无追踪邮件发展；邮件+SMS+WhatsApp 全渠道联动。" },
+    "ai": { "title": "AI 赋能邮件", "description": "AI 生成高打开率主题行并 A/B 测试自动择优；ML 预测每个用户最佳发送窗口；根据画像和行为自动生成个性化内容；AI 监控 IP 信誉自动优化避免进垃圾箱。" },
+    "business": { "title": "业务场景", "description": "欢迎邮件自动激活提升 50%；促销邮件精准推送目标用户；弃购挽回自动触发序列；订单确认、发票自动发送。自动化序列为电商带来 30%+ 增量收入。" },
+    "global": { "title": "全球送达保障", "description": "全球 20+ 发送节点与 Gmail、Outlook 等主流邮箱建立白名单关系。智能路由自动选择最佳发送 IP，确保邮件进入收件箱而非垃圾箱。" },
+    "cta": "返回首页"
+  },
+  "industryEcommerce": {
+    "title": "跨境电商",
+    "description": "多时区、多语言、多币种的复杂客户触达需求，OmniConnect 为跨境卖家提供从下单到复购的一站式通信方案。",
+    "sms": { "title": "SMS 短信", "description": "OTP验证码保障注册与支付安全；订单确认与发货通知秒级送达；促销节点精准营销短信触达；多语言模板覆盖全球各市场。" },
+    "whatsapp": { "title": "WhatsApp Business", "description": "东南亚、中东、拉美市场通过 WhatsApp 发送订单更新与物流追踪，提供售前售后客服，在用户熟悉的应用内完成全部沟通。" },
+    "voice": { "title": "AI 语音机器人", "description": "自动外呼确认高风险订单防欺诈；大促期间智能通知 VIP 客户提前加购；弃购后 AI 外呼挽留，转化率提升 20%+。" },
+    "email": { "title": "邮件营销", "description": "欢迎邮件+自动化序列培育新客；基于浏览和购买历史的个性化推荐邮件；弃购挽回自动触发，带来 30%+ 增量收入。" },
+    "cta": "返回首页"
+  },
+  "industryFinance": {
+    "title": "国际金融",
+    "description": "金融行业对通信的实时性、安全性和合规性有极高要求。OmniConnect 为银行、支付、保险等机构提供金融级通信基础设施。",
+    "sms": { "title": "SMS 短信", "description": "交易验证码毫秒级送达；大额交易实时通知；风控预警短信自动触发；合规通知与监管信息精准推送。" },
+    "whatsapp": { "title": "WhatsApp Business", "description": "加密交易确认发送；VIP 客户专属理财顾问服务；账单与对账单自动推送。端到端加密保障信息安全。" },
+    "voice": { "title": "AI 语音机器人", "description": "AI 外呼确认可疑交易实时拦截欺诈；还款提醒自动外呼合规录音存档；理财到期提醒自动预约经理回访。" },
+    "email": { "title": "邮件营销", "description": "月度账单自动发送；理财产品个性化推荐邮件；监管合规邮件加密传输；客户生命周期营销自动化。" },
+    "cta": "返回首页"
+  },
+  "industrySaas": {
+    "title": "SaaS 软件",
+    "description": "SaaS 企业需要持续的用户激活、留存与续费。OmniConnect 提供覆盖用户全生命周期的自动化通信方案。",
+    "sms": { "title": "SMS 短信", "description": "注册验证码秒级送达；账号异常登录实时告警；续费提醒到期前自动发送；产品更新与功能发布即时通知。" },
+    "whatsapp": { "title": "WhatsApp Business", "description": "通过 WhatsApp 提供产品演示预约、客户成功跟进、投诉升级处理。结合 AI chatbot 实现 24/7 全球客户支持。" },
+    "voice": { "title": "AI 语音机器人", "description": "试用到期自动外呼提醒升级；流失用户 AI 挽留了解原因并推荐替代方案；客户 NPS 满意度调研自动外呼。" },
+    "email": { "title": "邮件营销", "description": "Onboarding 自动化邮件引导新用户体验核心功能；产品周报推送使用数据与最佳实践；续费倒计时邮件提升续约率。" },
+    "cta": "返回首页"
+  },
+  "industryGaming": {
+    "title": "游戏出海",
+    "description": "游戏出海面对全球玩家的多样化通信需求。OmniConnect 提供覆盖用户获取、激活、付费、召回的完整通信方案。",
+    "sms": { "title": "SMS 短信", "description": "全球 OTP 验证码保障账户安全；充值到账即时通知；限时活动短信推送召回流失玩家；新服开启批量通知。" },
+    "whatsapp": { "title": "WhatsApp Business", "description": "拉美、东南亚等游戏高增长市场通过 WhatsApp 发送游戏更新与赛季通知，提供 VIP 玩家专属客服通道。" },
+    "voice": { "title": "AI 语音机器人", "description": "高价值玩家充值异常 AI 外呼确认；VIP 玩家生日 AI 语音祝福；流失玩家 AI 外呼召回归回礼包；防沉迷提醒自动外呼。" },
+    "email": { "title": "邮件营销", "description": "游戏更新日志推送；赛季总结与成就展示邮件；节日限定活动预告；玩家调研与反馈收集。" },
+    "cta": "返回首页"
+  },
+  "industryLogistics": {
+    "title": "国际物流",
+    "description": "国际物流链路长、节点多，需要实时可靠的客户通知体系。OmniConnect 提供全链路通信方案，让每个包裹状态及时触达客户。",
+    "sms": { "title": "SMS 短信", "description": "取件码签收码秒级发送；关键节点自动通知；异常状态实时预警；派送员联系方式短信推送。" },
+    "whatsapp": { "title": "WhatsApp Business", "description": "通过 WhatsApp 发送带地图链接的包裹追踪消息；客户可在应用内联系客服修改地址或预约派送；签收确认照片回传。" },
+    "voice": { "title": "AI 语音机器人", "description": "派送前 AI 自动外呼确认收件时间；地址不清时智能外呼核实；海关清关补充资料自动通知；客户满意度自动回访。" },
+    "email": { "title": "邮件营销", "description": "跨境物流全链路追踪邮件；关税与清关通知；电子发票与签收单自动发送；大客户专属物流报告定期推送。" },
+    "cta": "返回首页"
+  },
+  "industrySocial": {
+    "title": "海外社交平台",
+    "description": "社交平台需要处理海量实时通知和用户验证。OmniConnect 提供高并发、低延迟的通信基础设施，支撑亿级用户规模。",
+    "sms": { "title": "SMS 短信", "description": "注册/登录验证码秒级全球送达；账号安全告警实时通知；好友邀请短信一键触达；运营活动批量推送。" },
+    "whatsapp": { "title": "WhatsApp Business", "description": "利用 WhatsApp 高打开率发送重要安全通知；向用户推送热门内容推荐提升 DAU；社区运营与创作者沟通。" },
+    "voice": { "title": "AI 语音机器人", "description": "实名认证语音验证码；高危操作二次确认外呼；VIP 用户专属客服 AI 自动接听；内容审核结果通知。" },
+    "email": { "title": "邮件营销", "description": "每周精选内容推送邮件；好友动态汇总通知；隐私政策更新合规邮件；用户调研与 NPS 评分邮件。" },
+    "cta": "返回首页"
   }
 }

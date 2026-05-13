@@ -1,10 +1,12 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export default function Products() {
   const t = useTranslations('products');
+  const locale = useLocale();
 
   const products = [
     {
@@ -88,12 +90,12 @@ export default function Products() {
                 </p>
 
                 {/* Learn More Arrow */}
-                <div className="mt-6 flex items-center text-sm font-medium text-blue-400 group-hover:text-cyan-400 transition-colors">
-                  <span>Learn More</span>
+                <Link href={`/${locale}/${product.key}`} className="mt-6 flex items-center text-sm font-medium text-blue-400 group-hover:text-cyan-400 transition-colors">
+                  <span>{t('learnMore')}</span>
                   <svg className="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
-                </div>
+                </Link>
               </div>
             </motion.div>
           ))}
